@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+    border: none;
+    outline: none
+}
+
+/* write your CSS here */
+html {
+    font-size: 62.5%;
+}
+
+html,
+body {
+    cursor: default;
+    display: grid;
+    height: 100%;
+    background-color: #F5E7DA;
+    place-items: center;
+}
+
+
+.wrapper {
+    height: 473px;
+    width: 323px;
+    background: #fff;
+    border-radius: 10px;
+    /* border: 1px solid; */
+    box-shadow: 5px 5px 2px 2px rgba(0,0,0,0.5);
+}
+
+.row {
+    margin: 1rem 2rem;
+}
+.row button {
+    background-color: #F97316;
+    color: #fff;
+    padding: 2px;
+    border-radius: 10px;
+    font-size: 12px;
+    padding-inline: 10px;
+}
+
+.row h1  {
+    font-size: 18px;
+}
+
+.row p {
+    font-size: 16px;
+    color: #10182F;
+}
+
+.row img {
+    width: 50px;
+    /* height: 100%; */
+    position: absolute;
+    top: 20px;
+}
+
+.row .wrap {
+    /* z-index: 1; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    position: relative;
+}
+
+.wrap p {
+    position: absolute;
+    left: 55px;
+    top: 20px;
+    font-weight: 700;
+}
+.wrap span {
+    font-weight: 400;
+}
